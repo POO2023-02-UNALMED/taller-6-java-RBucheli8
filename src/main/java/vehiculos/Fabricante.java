@@ -11,6 +11,7 @@ public class Fabricante {
 	public Fabricante(String nombre, Pais pais) {
 		this.nombre = nombre;
 		this.pais = pais;
+		Fabricante.listadoFabricantes.add(this);
 	}
 	
 	public String getNombre() {
